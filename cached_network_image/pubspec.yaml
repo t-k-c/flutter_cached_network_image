@@ -12,8 +12,22 @@ environment:
   flutter: '>=3.10.0'
 
 dependencies:
-  cached_network_image_platform_interface: ^4.0.0
-  cached_network_image_web: ^1.1.1
+  cached_network_image_platform_interface: #^4.0.0
+    git:
+      url: https://github.com/t-k-c/flutter_cache_manager.git
+      path: cached_network_image_platform_interface
+      ref: develop
+  cached_network_image_web: #^1.1.1
+    git:
+        url: https://github.com/t-k-c/flutter_cache_manager.git
+        path: cached_network_image_web
+        ref: develop
+  cached_network_image_platform_interface: # ^4.0.0
+    git:
+      url: https://github.com/t-k-c/flutter_cache_manager.git
+      path: cached_network_image_platform_interface
+      ref: develop
+      
   flutter:
     sdk: flutter
   flutter_cache_manager: #^3.3.2
