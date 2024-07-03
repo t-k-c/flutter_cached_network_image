@@ -14,12 +14,12 @@ environment:
 dependencies:
   cached_network_image_platform_interface: #^4.0.0
     git:
-      url: https://github.com/t-k-c/flutter_cache_manager.git
+      url: https://github.com/t-k-c/flutter_cached_network_image.git
       path: cached_network_image_platform_interface
       ref: develop
   cached_network_image_web: #^1.1.1
     git:
-        url: https://github.com/t-k-c/flutter_cache_manager.git
+        url: https://github.com/t-k-c/flutter_cached_network_image.git
         path: cached_network_image_web
         ref: develop
       
@@ -27,7 +27,7 @@ dependencies:
     sdk: flutter
   flutter_cache_manager: #^3.3.2
     git:
-      url: https://github.com/t-k-c/flutter_cache_manager.git
+      url: https://github.com/t-k-c/flutter_cached_network_image.git
       path: flutter_cache_manager
       ref: develop
   octo_image: ^2.0.0
