@@ -22,11 +22,6 @@ dependencies:
         url: https://github.com/t-k-c/flutter_cache_manager.git
         path: cached_network_image_web
         ref: develop
-  cached_network_image_platform_interface: # ^4.0.0
-    git:
-      url: https://github.com/t-k-c/flutter_cache_manager.git
-      path: cached_network_image_platform_interface
-      ref: develop
       
   flutter:
     sdk: flutter
